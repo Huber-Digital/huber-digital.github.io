@@ -10,7 +10,7 @@
       const isDark = theme === "dark";
       toggle.setAttribute("aria-pressed", String(isDark));
       if (label) {
-        label.textContent = isDark ? "Switch to light" : "Switch to dark";
+        label.textContent = isDark ? "Light" : "Dark";
       }
     }
   };

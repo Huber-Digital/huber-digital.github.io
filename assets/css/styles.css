@@ -146,10 +146,6 @@ section {
   border: 1px solid rgba(254, 245, 234, 0.4);
 }
 
-.navbar-toggler-icon {
-  filter: invert(1);
-}
-
 .hero-section {
   padding: 110px 0 80px;
 }
@@ -491,9 +487,10 @@ section {
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-  background: #9a4d32;
-  border-color: #9a4d32;
+.btn-primary:focus,
+.btn-primary:active {
+  background: #9a4d32 !important;
+  border-color: #9a4d32 !important;
 }
 
 .btn-outline-light {
@@ -514,6 +511,11 @@ section {
 [data-bs-theme="dark"] .btn-outline-light {
   border-color: var(--ink);
   color: var(--ink);
+}
+[data-bs-theme="dark"] .btn-outline-light:hover,
+[data-bs-theme="dark"] .btn-outline-light:focus {
+  border-color: var(--ink);
+  color: black;
 }
 
 .theme-toggle {
