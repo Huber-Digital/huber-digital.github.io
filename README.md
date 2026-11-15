@@ -6,3 +6,5 @@
 ![](https://img.shields.io/maintenance/yes/2026.svg?style=flat)
 
 Visit Huber Digital at https://hubers.org.uk/
+
+© 2026 Huber Digital. All rights reserved.
